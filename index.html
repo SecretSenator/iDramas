@@ -52,14 +52,10 @@
                 <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
             </form>
             <div class="mx-2">
-                <div class="btn btn-danger"
-                data-toggle="modal"
-                data-target="#loginModal">
+                <div class="btn btn-danger" data-toggle="modal" data-target="#loginModal">
                     Login
                 </div>
-                <div class="btn btn-danger"
-                data-toggle="modal"
-                data-target="#signupModal">
+                <div class="btn btn-danger" data-toggle="modal" data-target="#signupModal">
                     Sign Up
                 </div>
             </div>
@@ -68,82 +64,85 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item active" aria-current="page">Home</li>
+            
         </ol>
     </nav>
 
-<!-- login modal -->
-  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Login here</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          
-        </div>
-        <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <!-- login modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login here</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
     </div>
-  </div>
 
 
 
-  <!-- sugnup modal -->
-  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="signupModalLabel">Sign Up here</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <!-- sugnup modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign Up here</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
-                <div class="mb-3">
-                    <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" id="cexampleInputPassword1">
-                  </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          
-        </div>
-      </div>
     </div>
-  </div>
 
 
     <!-- Sliders -->
@@ -154,7 +153,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100  " src="img/XSfExM.jpg" alt="First slide">
@@ -164,9 +163,9 @@
                             <button type="button" class="btn btn-danger mx-1">Left</button>
                             <button type="button" class="btn btn-warning mx-1">Middle</button>
                             <button type="button" class="btn btn-success mx-1">Right</button>
-                          </div>
+                        </div>
                     </div>
-                    
+
                 </div>
 
                 <div class="carousel-item">
@@ -177,7 +176,7 @@
                             <button type="button" class="btn btn-danger mx-1">Left</button>
                             <button type="button" class="btn btn-warning mx-1">Middle</button>
                             <button type="button" class="btn btn-success mx-1">Right</button>
-                          </div>
+                        </div>
                     </div>
                 </div>
 
@@ -189,10 +188,10 @@
                             <button type="button" class="btn btn-danger mx-1">Left</button>
                             <button type="button" class="btn btn-warning mx-1">Middle</button>
                             <button type="button" class="btn btn-success mx-1">Right</button>
-                          </div>
+                        </div>
                     </div>
                 </div>
-                
+
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -209,7 +208,7 @@
     <footer class="container pt-5">
         <p class="float-end"><a href="#">Back to top</a></p>
         <p>© 2018–2022 Studend Corp. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-      </footer>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
